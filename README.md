@@ -37,7 +37,8 @@ npm run eslint
 * Localisation - Remove hard-coded copy from the app, move it to the `config.json` and pass it through props.
 * UI & Design - Spend more time to improve the functionality, transitions and usability.
 * Responsiveness - Add a carousel to display the 5-days calendar accessible on mobile devices.
-* Testing - Implement testing.
+* Unit test - Implement tests.
+* Cross-browser tests - Ensure the application works in all the major browsers.
 ## Built with
 * [React](https://facebook.github.io/react/) - JavaScript library.
 * [Webpack](https://webpack.js.org/) - Module bundler.
