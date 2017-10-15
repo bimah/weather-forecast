@@ -48,7 +48,9 @@ class WeatherForecast extends React.Component {
     const { weatherData } = this.state;
     const numberOfDays = 5;
     const today = new Date();
-    const todayDay = today.getDay();
+    let todayDay = today.getDay();
+
+    if (today.getHours() > 21) todayDay += 1;
 
     const dailyForecast = [];
     for (let i = 0; i < numberOfDays; i += 1) {
