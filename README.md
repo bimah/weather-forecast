@@ -1,5 +1,5 @@
 # weather-forecast
-Single HTML page displaying the 5 day weather forecast
+Single HTML page displaying the 5 day weather forecast - [live example](http://bimah.co.uk/tests/weather-forecast/)
 ## Specifications
 * Use the latest specs of HTML, CSS and ECMAScript to implement the solution. At this time, these would be HTML5, CSS3 and ES2017.
 * Use the [OpenWeatherMap 5 day weather forecast API](http://openweathermap.org/forecast5) to retrieve the current 5 day weather forecast.
