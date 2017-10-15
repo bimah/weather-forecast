@@ -1,0 +1,21 @@
+@import '../common';
+
+.weather {
+  margin: 30px auto;
+  max-width: 1200px;
+  width: 100%;
+
+  h1 {
+    margin-bottom: 20px;
+  }
+
+  &--container {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+
+  .error {
+    color: $red;
+  }
+}

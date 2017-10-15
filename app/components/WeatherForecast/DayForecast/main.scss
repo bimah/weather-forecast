@@ -1,0 +1,52 @@
+@import '../../common';
+
+.day-forecast {
+  flex-grow: 1;
+  margin: 0 5px;
+
+  &:first-child {
+    margin-left: 0;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &--action {
+    background: $white;
+    border: 1px solid $light-grey;
+    cursor: pointer;
+    display: block;
+    height: 100%;
+    min-height: 180px;
+    outline: none;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+
+    .day {
+      font-size: 40px;
+      line-height: 90px;
+    }
+
+    .date {
+      font-size: 18px;
+      line-height: 25px;
+    }
+  }
+
+  &.selected {
+    flex-grow: 2;
+
+    .day-forecast--action {
+      background: $white;
+      min-height: 280px;
+
+      .day {
+        color: $red;
+        font-size: 80px;
+        line-height: 190px;
+      }
+    }
+  }
+}
