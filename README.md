@@ -1,5 +1,5 @@
 # weather-forecast
-Single HTML page displaying the 5 day weather forecast
+Single HTML page displaying the 5 day weather forecast - [live example](http://bimah.co.uk/tests/weather-forecast/)
 ## Specifications
 * Use the latest specs of HTML, CSS and ECMAScript to implement the solution. At this time, these would be HTML5, CSS3 and ES2017.
 * Use the [OpenWeatherMap 5 day weather forecast API](http://openweathermap.org/forecast5) to retrieve the current 5 day weather forecast.
@@ -37,7 +37,8 @@ npm run eslint
 * Localisation - Remove hard-coded copy from the app, move it to the `config.json` and pass it through props.
 * UI & Design - Spend more time to improve the functionality, transitions and usability.
 * Responsiveness - Add a carousel to display the 5-days calendar accessible on mobile devices.
-* Testing - Implement testing.
+* Unit test - Implement tests.
+* Cross-browser tests - Ensure the application works in all the major browsers.
 ## Built with
 * [React](https://facebook.github.io/react/) - JavaScript library.
 * [Webpack](https://webpack.js.org/) - Module bundler.
