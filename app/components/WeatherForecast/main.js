@@ -52,10 +52,13 @@ class WeatherForecast extends React.Component {
 
     if (today.getHours() > 21) todayDay += 1;
 
+    const getFilterData = (data, day) => data.list.filter(timeForecast =>
+      new Date(timeForecast.dt_txt).getDay() === day);
+
     const dailyForecast = [];
     for (let i = 0; i < numberOfDays; i += 1) {
-      const filteredData = weatherData.list.filter(timeForecast =>
-        new Date(timeForecast.dt_txt).getDay() === todayDay + i);
+      if (todayDay + i === 7) todayDay = 0;
+      const filteredData = getFilterData(weatherData, todayDay + i);
       dailyForecast.push({
         forecastDate: filteredData[0].dt_txt,
         data: filteredData,
