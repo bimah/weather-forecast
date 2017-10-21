@@ -10,6 +10,9 @@ Single HTML page displaying the 5 day weather forecast - [live example](http://b
    * Documents how to run / build / test your creation.
    * Documents anything you might implement with more time (features, fixes, technical debt, corrections etc.)
 
+## Configuration
+To get the application working you need to get a free API key at [OpenWeatherMap Website](http://openweathermap.org/appid) and add it to config.js
+
 ## Installing the application
 To install the application using npm
 ```
